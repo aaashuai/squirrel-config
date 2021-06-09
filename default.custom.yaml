@@ -26,7 +26,7 @@ patch:
     Caps_Lock: noop
     Shift_L: commit_code
     Shift_R: noop
-    Control_L: commit_code
+    Control_L: noop
     Control_R: noop
 
   key_binder/bindings:
