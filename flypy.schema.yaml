@@ -18,6 +18,7 @@ switches:
     reset: 0
    # states: [ 中文, 英文 ]
   - name: full_shape
+    reset: 0
    # states: [ 半角, 全角 ]
   - name: simplification
    # states: [ 简, 繁 ]
@@ -130,9 +131,9 @@ key_binder:
   #  - {accept: Release+semicolon, send: semicolon, when: has_menu} #如启用此行，则分号引导符号功能无效
     - {accept: "Tab", send: Escape, when: composing}
     - {accept: "Shift_R", send: Escape, when: composing}
-    - {accept: "Shift+space", toggle: full_shape, when: always} #切换全半角
+    # - {accept: "Shift+space", toggle: full_shape, when: always} #切换全半角
     - {accept: "Control+period", toggle: ascii_punct, when: always} #切换中英标点
-    - {accept: "Control+j", toggle: simplification, when: always} #切换简繁
+      # - {accept: "Control+j", toggle: simplification, when: always} #切换简繁
 
 recognizer:
   import_preset: default

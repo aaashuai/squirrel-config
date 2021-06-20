@@ -4,7 +4,7 @@ __build_info:
     default: 1561294610
     default.custom: 1622788476
     flypy.custom: 0
-    flypy.schema: 1622519004
+    flypy.schema: 1623402844
     key_bindings: 1561294610
     key_bindings.custom: 0
     punctuation: 1561294610
@@ -75,9 +75,7 @@ key_binder:
     - {accept: semicolon, send: 2, when: has_menu}
     - {accept: Tab, send: Escape, when: composing}
     - {accept: Shift_R, send: Escape, when: composing}
-    - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+period", toggle: ascii_punct, when: always}
-    - {accept: "Control+j", toggle: simplification, when: always}
   import_preset: default
 menu:
   page_size: 5
@@ -189,6 +187,7 @@ switches:
   - name: ascii_mode
     reset: 0
   - name: full_shape
+    reset: 0
   - name: simplification
     reset: 0
   - name: ascii_punct
