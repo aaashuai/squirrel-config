@@ -554,3 +554,6 @@
 向量	xlll
 误检	wujm
 增删改查	zugi
+即时	jiui
+超声波	iubo
+竞品	jkpb
