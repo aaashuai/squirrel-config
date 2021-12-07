@@ -389,3 +389,9 @@ app_options:
   ru.keepcoder.Telegram:
     # 規避 https://github.com/rime/squirrel/issues/475
     inline: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+  md.obsidian:
+    vim_mode: true

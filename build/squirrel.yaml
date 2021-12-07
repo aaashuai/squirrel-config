@@ -1,8 +1,8 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    squirrel: 1635769981
-    squirrel.custom: 1622519543
+    squirrel: 1638000670
+    squirrel.custom: 1638000413
 app_options:
   co.zeit.hyper:
     ascii_mode: true
@@ -23,14 +23,20 @@ app_options:
     ascii_mode: true
   com.google.Chrome:
     inline: true
+  com.googlecode.iterm2:
+    ascii_mode: true
   com.macromates.TextMate.preview:
     ascii_mode: true
   com.microsoft.VSCode:
+    ascii_mode: true
+  com.runningwithcrayons.Alfred:
     ascii_mode: true
   "com.runningwithcrayons.Alfred-2":
     ascii_mode: true
   com.sublimetext.2:
     ascii_mode: true
+  md.obsidian:
+    vim_mode: true
   org.gnu.Aquamacs:
     ascii_mode: true
   org.gnu.Emacs:

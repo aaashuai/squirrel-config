@@ -557,3 +557,13 @@
 即时	jiui
 超声波	iubo
 竞品	jkpb
+标识	bnui
+布尔	buer
+整型	vgxk
+用例	ysli
+哪些	naxp
+用例	ysli
+泛化	fjhx
+实线	uixm
+边界	bmjp
+建模	jmmo
