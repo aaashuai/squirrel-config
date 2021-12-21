@@ -567,3 +567,9 @@
 实线	uixm
 边界	bmjp
 建模	jmmo
+👀	kjk
+😁	easy
+😵	hard
+🧐	unsu
+🤮	shit
+提测	tice
