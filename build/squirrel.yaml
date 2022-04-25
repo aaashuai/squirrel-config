@@ -1,13 +1,8 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-<<<<<<< HEAD
-    squirrel: 1641647427
-    squirrel.custom: 1641647427
-=======
-    squirrel: 1639635500
+    squirrel: 1646979820
     squirrel.custom: 1638897024
->>>>>>> 6faca55 (update: rime)
 app_options:
   co.zeit.hyper:
     ascii_mode: true
