@@ -4,7 +4,7 @@ __build_info:
     default: 1561294610
     default.custom: 1638897024
     flypy.custom: 0
-    flypy.schema: 1638897024
+    flypy.schema: 1662367951
     key_bindings: 1561294610
     key_bindings.custom: 0
     punctuation: 1561294610
@@ -55,6 +55,7 @@ engine:
     - table_translator
     - "lua_translator@date_translator"
     - "lua_translator@time_translator"
+    - "lua_translator@datetime_translator"
     - "table_translator@custom_phraseVD"
     - "table_translator@custom_phraseXT"
     - "table_translator@custom_phraseYH"
@@ -180,7 +181,7 @@ speller:
   auto_select_pattern: "^;.$|^\\w{4}$"
   finals: "/"
   initials: "abcdefghijklmnopqrstuvwxyz;"
-  max_code_length: 4
+  max_code_length: 99
 style:
   horizontal: true
 switches:

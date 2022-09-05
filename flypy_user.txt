@@ -592,3 +592,16 @@
 棋盘	qipj
 工单	gsdj
 抽帧	izvf
+🍅	fjqp
+🥔	tudz
+✔	yes
+❌	no
+❓	wfhc
+周会	vzhv
+🤷‍♂️	tjuz
+°	du
+👉	yz
+👈	zo
+🛠️	gsju
+💡	dgpc
+移除	yiiu

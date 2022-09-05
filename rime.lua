@@ -14,3 +14,10 @@ function time_translator(input, seg)
    end
 end
 
+function datetime_translator(input, seg)
+   if (input == "dtm") then
+      --- Candidate(type, start, end, text, comment)
+      yield(Candidate("dtm", seg.start, seg._end, os.date("%Y年%m月%d日 %H时%M分%S秒"), ""))
+      yield(Candidate("dtm", seg.start, seg._end, os.date("%Y-%m-%d %H:%M:%S"), " "))
+   end
+end
