@@ -73,7 +73,7 @@ translator:
   dictionary: flypy
   enable_charset_filter: false
   enable_sentence: false
-  enable_completion: false # 编码提示开关
+  enable_completion: true # 编码提示开关
   enable_user_dict: false
   disable_user_dict_for_patterns:
     - "^z.*$"
@@ -148,5 +148,5 @@ menu:
   page_size: 5 #候选项数
   
 style:
-  horizontal: true #竖排为false
+  horizontal: false #竖排为false
   

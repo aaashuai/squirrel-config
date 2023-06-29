@@ -1,13 +1,13 @@
 __build_info:
-  rime_version: 1.5.3
+  rime_version: 1.8.5
   timestamps:
-    default: 1561294610
-    default.custom: 1686540935
+    default: 1675621991
+    default.custom: 1687155097
     flypy.custom: 0
-    flypy.schema: 1662368013
-    key_bindings: 1561294610
+    flypy.schema: 1688017097
+    key_bindings: 1675621991
     key_bindings.custom: 0
-    punctuation: 1561294610
+    punctuation: 1675621991
     punctuation.custom: 0
 custom_phraseVD:
   db_class: stabledb
@@ -166,7 +166,7 @@ schema:
     - "方案设计：何海峰 <flypy@qq.com>"
   description: |
     小鹤音形主码表
-    
+
   name: "小鹤音形"
   schema_id: flypy
   version: 10.7.6
@@ -183,7 +183,7 @@ speller:
   initials: "abcdefghijklmnopqrstuvwxyz;"
   max_code_length: 99
 style:
-  horizontal: true
+  horizontal: false
 switches:
   - name: ascii_mode
     reset: 0
@@ -198,6 +198,6 @@ translator:
   disable_user_dict_for_patterns:
     - "^z.*$"
   enable_charset_filter: false
-  enable_completion: false
+  enable_completion: true
   enable_sentence: false
   enable_user_dict: false

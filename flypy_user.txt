@@ -619,3 +619,6 @@
 ⚠️	gjtj
 ❌	ia
 貌似	mcsi
+食物	shiwu
+食物	uiwu
+重试	isui

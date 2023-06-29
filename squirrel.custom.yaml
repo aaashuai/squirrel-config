@@ -16,7 +16,7 @@ patch:
   font_point: 16
   hilited_candidate_back_color: 0xFFF0E4
   hilited_candidate_text_color: 0xEE6E00
-  horizontal: false
+  horizontal: true
   inline_preedit: true
   label_font_face: "STHeitiSC-Light"
   label_font_point: 12
