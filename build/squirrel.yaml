@@ -1,37 +1,8 @@
 __build_info:
   rime_version: 1.8.5
   timestamps:
-    squirrel: 1688017418
+    squirrel: 1689324335
     squirrel.custom: 1688017239
-app_options:
-  co.zeit.hyper:
-    ascii_mode: true
-  com.apple.Spotlight:
-    ascii_mode: true
-  com.apple.dt.Xcode:
-    ascii_mode: true
-  com.barebones.textwrangler:
-    ascii_mode: true
-  com.blacktree.Quicksilver:
-    ascii_mode: true
-  com.github.atom:
-    ascii_mode: true
-  com.google.Chrome:
-    inline: true
-  com.macromates.TextMate.preview:
-    ascii_mode: true
-  com.microsoft.VSCode:
-    ascii_mode: true
-  md.obsidian:
-    vim_mode: true
-  org.gnu.Aquamacs:
-    ascii_mode: true
-  org.vim.MacVim:
-    ascii_mode: true
-    no_inline: true
-    vim_mode: true
-  ru.keepcoder.Telegram:
-    inline: true
 author: "LIANG Hai"
 back_color: 0xFFFFFF
 border_height: 0
