@@ -38,6 +38,8 @@ app_options:
   com.runningwithcrayons.Alfred:
     ascii_mode: true
     vim_mode: true
+  com.brave.Browser:
+    ascii_mode: true
 
 style:
   # 选择皮肤，亮色与暗色主题
@@ -56,8 +58,8 @@ style:
   #candidate_format: '%c. %@'
   #base_offset: 6
   # font_face: 'Lucida Grande'
-  font_face: 'LXGW WenKai'
-  font_point: 18
+  font_face: 'Source Han Sans SC VF'
+  font_point: 20
   #label_font_face: 'Lucida Grande'
   label_font_point: 18
   #comment_font_face: 'Lucida Grande'
