@@ -5,7 +5,6 @@ customization:
 patch:
   schema_list:
     - schema: flypy # 添加小鹤音形
-
 #
 # 可用的按键有 Caps_Lock, Shift_L, Shift_R, Control_L, control_R
 # Mac 系统上的鼠须管不能区分左、右，因此只有对 Shift_L, Control_L 的设定起作用

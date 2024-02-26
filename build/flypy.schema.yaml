@@ -2,9 +2,9 @@ __build_info:
   rime_version: 1.8.5
   timestamps:
     default: 1675621991
-    default.custom: 1687155097
+    default.custom: 1692687467
     flypy.custom: 0
-    flypy.schema: 1688017097
+    flypy.schema: 1695188047
     key_bindings: 1675621991
     key_bindings.custom: 0
     punctuation: 1675621991
@@ -77,6 +77,7 @@ key_binder:
     - {accept: Tab, send: Escape, when: composing}
     - {accept: Shift_R, send: Escape, when: composing}
     - {accept: "Control+period", toggle: ascii_punct, when: always}
+    - {accept: "Control+j", toggle: simplification, when: always}
   import_preset: default
 menu:
   page_size: 5
@@ -191,6 +192,7 @@ switches:
     reset: 0
   - name: simplification
     reset: 0
+    states: ["简", "繁"]
   - name: ascii_punct
     reset: 1
 translator:
