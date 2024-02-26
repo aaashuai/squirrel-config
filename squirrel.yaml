@@ -29,14 +29,20 @@ show_notifications_when: appropriate
 app_options:
   # com.apple.Spotlight:
   #   ascii_mode: true    # 开启默认英文
-  # com.microsoft.VSCode:
-  #   ascii_mode: false   # 关闭默认英文
-
+  com.jetbrains.pycharm.ce:
+    ascii_mode: true 
+    vim_mode: true
+  net.kovidgoyal.kitty:
+    ascii_mode: true
+    vim_mode: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
+    vim_mode: true
 
 style:
   # 选择皮肤，亮色与暗色主题
-  color_scheme: purity_of_form_custom
-  color_scheme_dark: purity_of_form_custom
+  color_scheme: native
+  color_scheme_dark: native
 
   # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
   text_orientation: horizontal  # horizontal | vertical
@@ -49,8 +55,9 @@ style:
   spacing: 10
   #candidate_format: '%c. %@'
   #base_offset: 6
-  font_face: 'Lucida Grande'
-  font_point: 21
+  # font_face: 'Lucida Grande'
+  font_face: 'LXGW WenKai'
+  font_point: 18
   #label_font_face: 'Lucida Grande'
   label_font_point: 18
   #comment_font_face: 'Lucida Grande'

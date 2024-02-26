@@ -36,7 +36,7 @@ switches:
   - name: ascii_mode
     states: [ 中, Ａ ]
   - name: ascii_punct  # 中英标点
-    states: [ ¥, $ ]
+    states: [ 。, . ]
   - name: traditionalization
     states: [ 简, 繁 ]
   - name: emoji

@@ -3,21 +3,14 @@
 
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '2024-02-05'
+config_version: '2024-02-26'
 
 
 # 方案列表
 schema_list:
   # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
   # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
-  - schema: rime_ice               # 雾凇拼音（全拼）
-  - schema: t9                     # 九宫格（仓输入法）
-  - schema: double_pinyin          # 自然码双拼
-  - schema: double_pinyin_abc      # 智能 ABC 双拼
-  - schema: double_pinyin_mspy     # 微软双拼
-  - schema: double_pinyin_sogou    # 搜狗双拼
   - schema: double_pinyin_flypy    # 小鹤双拼
-  - schema: double_pinyin_ziguang  # 紫光双拼
 
 
 # 菜单
@@ -201,10 +194,9 @@ key_binder:
     # - { when: always, select: .next, accept: Control+Shift+exclam }             # 在最近的两个方案之间切换
     # - { when: always, toggle: ascii_mode, accept: Control+Shift+2 }             # 切换中英
     # - { when: always, toggle: ascii_mode, accept: Control+Shift+at }            # 切换中英
-    - { when: always, toggle: ascii_punct, accept: Control+Shift+3 }              # 切换中英标点
-    - { when: always, toggle: ascii_punct, accept: Control+Shift+numbersign }     # 切换中英标点
-    - { when: always, toggle: traditionalization, accept: Control+Shift+4 }       # 切换简繁
-    - { when: always, toggle: traditionalization, accept: Control+Shift+dollar }  # 切换简繁
+    # - { when: always, toggle: ascii_punct, accept: Control_L+period }           # 切换中英标点
+    # - { when: always, toggle: traditionalization, accept: Control+Shift+4 }     # 切换简繁
+    # - { when: always, toggle: traditionalization, accept: Control+Shift+dollar }  # 切换简繁
     # - { when: always, toggle: full_shape, accept: Control+Shift+5 }             # 切换全半角
     # - { when: always, toggle: full_shape, accept: Control+Shift+percent }       # 切换全半角
 
@@ -228,7 +220,7 @@ key_binder:
     # - { when: always, accept: Control+Shift+space, select: .next }
     # - { when: always, accept: Shift+space, toggle: ascii_mode }
     # - { when: always, accept: Control+comma, toggle: full_shape }
-    # - { when: always, accept: Control+period, toggle: ascii_punct }
+    - { when: always, accept: Control+period, toggle: ascii_punct }
     # - { when: always, accept: Control+slash, toggle: traditionalization }
 
     # 将小键盘 0~9 . 映射到主键盘，数字金额大写的 Lua 如 R1234.5678 可使用小键盘输入
