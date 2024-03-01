@@ -32,7 +32,7 @@ switcher:
     - ascii_punct
     - traditionalization
     - emoji
-    - full_shape
+    # - full_shape
     - search_single_char
   fold_options: true            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
   abbreviate_options: true      # 折叠时是否缩写选项

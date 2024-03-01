@@ -40,6 +40,8 @@ app_options:
     vim_mode: true
   com.brave.Browser:
     ascii_mode: true
+  com.sublimetext.4:
+    ascii_mode: true
 
 style:
   # 选择皮肤，亮色与暗色主题
