@@ -8,16 +8,16 @@ patch:
   # 候选菜单
   menu/+:
     # 注释掉下行以恢复常规候选标签序号
-    alternative_select_labels: [①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⓪]
+    # alternative_select_labels: [①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⓪]
     # alternative_select_keys: 1234890      # 候选项选中快捷键
     page_size: 7                            # 自定义候选项个数
 
   # 候选菜单布局样式
   style/+:
-    font_point: 12                    # 候选字大小
-    line_spacing: 6                   # 行间距大小
+    font_point: 20                    # 候选字大小
+    line_spacing: 5                   # 行间距大小
     inline_preedit: true              # 编码位于是否嵌入候选框
-    candidate_list_layout: linear     # 候选菜单横向(linear)/纵向(stacked)
+    candidate_list_layout: stacked     # 候选菜单横向(linear)/纵向(stacked)
     text_orientation: horizontal      # 候选文字横向(horizontal)/纵向(vertical)
 
   switches/+:
@@ -70,8 +70,8 @@ patch:
       - {when: has_menu,  accept: apostrophe, send: 3}       # 单引号用于第3候选
       - {when: paging,    accept: comma,  send: Page_Up}     # 逗号, 返回上一页
       - {when: has_menu,  accept: period, send: Page_Down}   # 句号. 下一页
-      # - {when: paging,    accept: minus,  send: Page_Up}   # 减号- 返回上一页
-      # - {when: has_menu,  accept: equal, send: Page_Down}  # 等号= 下一页
+      - {when: paging,    accept: minus,  send: Page_Up}   # 减号- 返回上一页
+      - {when: has_menu,  accept: equal, send: Page_Down}  # 等号= 下一页
       - {when: has_menu,  accept: Tab, send: Control+Right}
       - {when: composing, accept: Tab, send: Control+Right}
       - {when: composing, accept: Shift+Tab, send: Control+Left}

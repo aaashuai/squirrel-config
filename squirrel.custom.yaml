@@ -12,25 +12,25 @@ patch:
     # layout:
     #   max_width: 0
     # 註: 預設的配色方案及代碼(指定爲 style/color_scheme 系統默認色系 - native)
-    color_scheme: songhe                        # macos明亮主题
-    color_scheme_dark: catppuccin_frappe        # macos黑暗主题
+    color_scheme: native                        # macos明亮主题
+    color_scheme_dark: native        # macos黑暗主题
     # color_scheme_dark: catppuccin_macchiato   # macos黑暗主题
 
     inline_preedit: false
     mutual_exclusive: false                     # 色不叠加: false | true
     alpha: 0.95                                 # 透明度, 0~1
-    border_width: 1
-    border_height: 1
+    border_width: 0
+    border_height: 0
     spacing: 10
     line_spacing: 5
     corner_radius: 8
     hilited_corner_radius: 6
     font_point: 20
-    label_font_point: 16
-    comment_font_point: 14
+    label_font_point: 18
+    comment_font_point: 18
     candidate_list_layout: stacked              # 候选排布: 层叠 stacked | 行 linear
     label_font_face: 'Lucida Grande'
-    font_face: "MiSans, MiSans L3, MiSans Latin, LXGWNeoXiHei"
+    font_face: "Source Han Sans SC VF, MiSans, MiSans L3, MiSans Latin, LXGWNeoXiHei"
 
   # 皮肤主题
   preset_color_schemes:
@@ -120,48 +120,48 @@ patch:
       hilited_candidate_border_color: 0x434C50
 
   # 特定App默认中/英文输入
-  app_options:
-    com.apple.Spotlight:              # 聚焦搜索
-      ascii_mode: true                # true默认英文,false默认中文
-    com.raycast.macos:                # Raycast
-      ascii_mode: true
-    com.runningwithcrayons.Alfred:    # alfred
-      ascii_mode: true
-    org.alacritty:                    # alacritty 终端
-      ascii_mode: true
-      ascii_punct: true               # 中文状态输出英文标点(半角)
-      symbol_unpair_flag: true
-    com.apple.Terminal:               # 终端
-      ascii_mode: true
-      symbol_unpair_flag: true
-    com.googlecode.iterm2:            # iterm2
-      ascii_mode: true
-      ascii_punct: true               # 中文状态输出英文标点(半角)
-      symbol_unpair_flag: true
-    com.apple.Stickies:
-      ascii_mode: false
-    com.apple.TextEdit:
-      ascii_mode: false
-    md.obsidian:
-      ascii_mode: true
-    com.microsoft.VSCode:             # Visual Studio Code
-      ascii_mode: true
-      ascii_punct: true               # 中文状态输出英文标点(半角)
-      vim_mode: true
-      symbol_unpair_flag: true
-    com.todesktop.230313mzl4w4u92:    # Cursor
-      ascii_mode: true
-      ascii_punct: true               # 中文状态输出英文标点(半角)
-      vim_mode: true
-      symbol_unpair_flag: true
-    com.neovide.neovide:
-      ascii_mode: true
-      ascii_punct: true               # 中文状态输出英文标点(半角)
-      vim_mode: true
-      symbol_unpair_flag: true
-    com.microsoft.edgemac:
-      ascii_mode: false
-    com.google.Chrome:
-      inline: true
-    com.tencent.xinWeChat:
-      wechat_flag: true
+app_options:
+    # com.apple.Spotlight:              # 聚焦搜索
+    #   ascii_mode: true                # true默认英文,false默认中文
+    # com.raycast.macos:                # Raycast
+    #   ascii_mode: true
+  com.runningwithcrayons.Alfred:    # alfred
+    ascii_mode: true
+    # org.alacritty:                    # alacritty 终端
+    #   ascii_mode: true
+    #   ascii_punct: true               # 中文状态输出英文标点(半角)
+    #   symbol_unpair_flag: true
+    # com.apple.Terminal:               # 终端
+    #   ascii_mode: true
+    #   symbol_unpair_flag: true
+    # com.googlecode.iterm2:            # iterm2
+    #   ascii_mode: true
+    #   ascii_punct: true               # 中文状态输出英文标点(半角)
+    #   symbol_unpair_flag: true
+    # com.apple.Stickies:
+    #   ascii_mode: false
+    # com.apple.TextEdit:
+    #   ascii_mode: false
+    # md.obsidian:
+    #   ascii_mode: true
+    # com.microsoft.VSCode:             # Visual Studio Code
+    #   ascii_mode: true
+    #   ascii_punct: true               # 中文状态输出英文标点(半角)
+    #   vim_mode: true
+    #   symbol_unpair_flag: true
+    # com.todesktop.230313mzl4w4u92:    # Cursor
+    #   ascii_mode: true
+    #   ascii_punct: true               # 中文状态输出英文标点(半角)
+    #   vim_mode: true
+    #   symbol_unpair_flag: true
+    # com.neovide.neovide:
+    #   ascii_mode: true
+    #   ascii_punct: true               # 中文状态输出英文标点(半角)
+    #   vim_mode: true
+    #   symbol_unpair_flag: true
+    # com.microsoft.edgemac:
+    #   ascii_mode: false
+    # com.google.Chrome:
+    #   inline: true
+    # com.tencent.xinWeChat:
+    #   wechat_flag: true

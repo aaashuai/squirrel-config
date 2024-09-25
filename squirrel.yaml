@@ -26,8 +26,8 @@ show_notifications_when: appropriate
 
 style:
   # 选择皮肤，亮色与暗色主题
-  color_scheme: dracula
-  color_scheme_dark: purity_of_form
+  color_scheme: dracula_light
+  color_scheme_dark: dracula
 
   # 预设选项：（可被皮肤覆盖；如果皮肤没写，则默认使用这些属性。）
   text_orientation: horizontal                      # horizontal | vertical
@@ -191,26 +191,26 @@ preset_color_schemes:
     inline_preedit: false
 
 # 特定App默认中/英文输入
-app_options:
-  com.apple.Spotlight:              # 聚焦搜索
-    ascii_mode: true                # true默认英文,false默认中文
-  com.runningwithcrayons.Alfred:    # alfred
-    ascii_mode: true
-  com.apple.Terminal:               # 终端
-    ascii_mode: true
-  com.googlecode.iterm2:            # iterm2
-    ascii_mode: true
-    ascii_punct: true               # 中文状态输出英文标点(半角)
-  com.microsoft.VSCode:             # Visual Studio Code
-    ascii_mode: true
-    ascii_punct: true               # 中文状态输出英文标点(半角)
-  com.raycast.macos:                # Raycast
-    ascii_mode: true
-  com.neovide.neovide:
-    ascii_mode: true
-    ascii_punct: true               # 中文状态输出英文标点(半角)
-  org.alacritty:
-    ascii_mode: true
-    ascii_punct: true               # 中文状态输出英文标点(半角)
-  com.microsoft.edgemac:
-    ascii_mode: false
+# app_options:
+#   com.apple.Spotlight:              # 聚焦搜索
+#     ascii_mode: true                # true默认英文,false默认中文
+#   com.runningwithcrayons.Alfred:    # alfred
+#     ascii_mode: true
+#   com.apple.Terminal:               # 终端
+#     ascii_mode: true
+#   com.googlecode.iterm2:            # iterm2
+#     ascii_mode: true
+#     ascii_punct: true               # 中文状态输出英文标点(半角)
+#   com.microsoft.VSCode:             # Visual Studio Code
+#     ascii_mode: true
+#     ascii_punct: true               # 中文状态输出英文标点(半角)
+#   com.raycast.macos:                # Raycast
+#     ascii_mode: true
+#   com.neovide.neovide:
+#     ascii_mode: true
+#     ascii_punct: true               # 中文状态输出英文标点(半角)
+#   org.alacritty:
+#     ascii_mode: true
+#     ascii_punct: true               # 中文状态输出英文标点(半角)
+#   com.microsoft.edgemac:
+#     ascii_mode: false
