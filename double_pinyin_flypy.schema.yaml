@@ -34,7 +34,8 @@ schema:
 # abbrev: 默认的缩写取 states 的第一个字符，abbrev 可自定义一个字符
 switches:
   - name: ascii_mode
-    states: [ 中, Ａ ]
+    # states: [ 中, Ａ ]
+    states: [ 中 ]
   - name: ascii_punct  # 中英标点
     states: [ 。, . ]
     reset: 1
