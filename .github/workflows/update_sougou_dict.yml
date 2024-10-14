@@ -64,6 +64,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git pull --rebase --autostash
           git add cn_dicts/flypy_sogou.dict.yaml
           git commit -m "Update sougou dict"
           git push origin main
