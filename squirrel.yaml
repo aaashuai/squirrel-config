@@ -191,11 +191,11 @@ preset_color_schemes:
     inline_preedit: false
 
 # 特定App默认中/英文输入
-# app_options:
+app_options:
+  com.runningwithcrayons.Alfred:    # alfred
+    ascii_mode: true
 #   com.apple.Spotlight:              # 聚焦搜索
 #     ascii_mode: true                # true默认英文,false默认中文
-#   com.runningwithcrayons.Alfred:    # alfred
-#     ascii_mode: true
 #   com.apple.Terminal:               # 终端
 #     ascii_mode: true
 #   com.googlecode.iterm2:            # iterm2
