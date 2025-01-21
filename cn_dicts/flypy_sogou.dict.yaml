@@ -3,7 +3,7 @@
 
 ---
 name: flypy_sogou
-version: 2025-01-20
+version: 2025-01-21
 sort: by_weight
 ...
 
@@ -21439,3 +21439,6 @@ sort: by_weight
 敖隐	ao yb	1
 爱心发型	ai xb fa xk	1
 阿米诺斯	aa mi no si	1
+敖隐	ao yb	1
+阿米诺斯	aa mi no si	1
+爱我没有如果	ai wo mw yz ru go	1
