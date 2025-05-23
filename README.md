@@ -1,3 +1,5 @@
+# forked from https://github.com/boomker/rime-fast-xhup
+
 ## Rime 输入法双拼加辅助码方案
 
 Rime 输入法配置方案，小鹤双拼+小鹤形码辅助方案。使用后打字几乎不需要翻页，且学习成本明显低于五笔等输入方案。
